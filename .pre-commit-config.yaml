@@ -1,0 +1,67 @@
+---
+repos:
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.11.0.1
+    hooks:
+      - id: shellcheck
+  - repo: https://github.com/scop/pre-commit-shfmt
+    rev: v3.13.1-1
+    hooks:
+      - id: shfmt
+        args: [-i, "2", -w]
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-json
+      - id: check-yaml
+      - id: check-xml
+      - id: pretty-format-json
+        args: [--autofix, --no-ensure-ascii]
+      - id: check-executables-have-shebangs
+      - id: check-shebang-scripts-are-executable
+      - id: detect-private-key
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: fix-byte-order-marker
+      - id: check-case-conflict
+      - id: check-docstring-first
+      - id: check-symlinks
+      - id: destroyed-symlinks
+  - repo: https://github.com/homebysix/pre-commit-macadmin
+    rev: v1.24.1
+    hooks:
+      - id: check-autopkg-recipe-list
+      - id: check-autopkg-recipes
+      - id: check-jamf-extension-attributes
+      - id: check-jamf-profiles
+      - id: check-jamf-scripts
+      - id: check-plists
+      - id: forbid-autopkg-overrides
+      - id: forbid-autopkg-trust-info
+      # - id: format-xml-plist
+  - repo: https://github.com/python/black
+    rev: 26.3.1
+    hooks:
+      - id: black
+  - repo: https://github.com/hadolint/hadolint
+    rev: v2.14.0
+    hooks:
+      - id: hadolint
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.38.0
+    hooks:
+      - id: yamllint
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.22.1
+    hooks:
+      - id: markdownlint-cli2
+  - repo: local
+    hooks:
+      - id: format-xml-plist
+        name: Auto-format plist [XML]
+        description: Auto-format a Property List (plist) as XML.
+        entry: plutil -convert xml1
+        language: system
+        files: '\.(mobileconfig|pkginfo|plist|recipe)$'
+        types: [text]
