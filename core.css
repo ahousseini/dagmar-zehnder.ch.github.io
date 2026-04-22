@@ -4,31 +4,31 @@
 		color: #333;
 		letter-spacing: 1px;
 	}
-		
+
 		html head {
-			
+
 		}
-		
+
 		html body {
-			
+
 		}
-			
+
 			html body div.header {
 				margin-bottom: 20px;
 			}
-			
+
 				html body div.header div.title {
-					
+
 				}
-				
+
 					html body div.header div.title h1 {
-						
+
 					}
-					
+
 						html body div.header div.title h1 a:link,
 						html body div.header div.title h1 a:visited {
 							display: block;
-							
+
 							font-family: 'Lobster';
 							text-decoration: none;
 							color: #BA1820;
@@ -36,12 +36,12 @@
 							padding: 40px 0 0 0;
 							font-size: 38px;
 						}
-						
+
 						html body div.header div.title h1 a:hover,
 						html body div.header div.title h1 a:active,
 						html body div.header div.title h1 a:focus {
 							display: block;
-							
+
 							font-family: 'Lobster';
 							text-decoration: none;
 							color: #BA1820;
@@ -49,56 +49,56 @@
 							padding: 40px 0 0 0;
 							font-size: 38px;
 						}
-				
+
 				html body div.header div.nav {
-					
+
 				}
-				
+
 					html body div.header div.nav ul {
 						float: right
 					}
-					
+
 						html body div.header div.nav ul li {
 							float: left;
 						}
-						
+
 							html body div.header div.nav ul li a:link,
 							html body div.header div.nav ul li a:visited {
 								display: block;
-								
+
 								color: #333;
 								text-decoration: none;
 								font-weight: 200;
 								padding: 55px 0 40px 50px;
 							}
-							
+
 							html body div.header div.nav ul li a:hover,
 							html body div.header div.nav ul li a:active,
 							html body div.header div.nav ul li a:focus {
 								display: block;
-								
+
 								color: #999;
 								text-decoration: none;
 								font-weight: 200;
 								padding: 55px 0 40px 50px;
 							}
-							
+
 				html body div.header div.nav-r {
-					
+
 				}
-				
+
 					html body div.header div.nav-r ul {
 						margin-top: 20px;
 					}
-					
+
 						html body div.header div.nav-r ul li {
-							
+
 						}
-						
+
 							html body div.header div.nav-r ul li a:link,
 							html body div.header div.nav-r ul li a:visited {
 								display: block;
-								
+
 								color: #333;
 								text-decoration: none;
 								font-weight: 200;
@@ -106,12 +106,12 @@
 								margin-bottom: 5px;
 								background-color: #eee;
 							}
-							
+
 							html body div.header div.nav-r ul li a:hover,
 							html body div.header div.nav-r ul li a:active,
 							html body div.header div.nav-r ul li a:focus {
 								display: block;
-								
+
 								color: #333;
 								text-decoration: none;
 								font-weight: 200;
@@ -119,19 +119,19 @@
 								margin-bottom: 5px;
 								background-color: #eee;
 							}
-			
+
 			html body div.content {
 				margin-bottom: 20px;
 			}
-			
+
 				html body div.content div {
-					
+
 				}
-				
+
 					html body div.content div div.tile {
 						margin-bottom: 20px;
 					}
-					
+
 						html body div.content div div.tile a {
 							display: block;
 							position: relative;
@@ -142,12 +142,12 @@
 							overflow: hidden;
 							/*border: 1px solid #555;*/
 						}
-						
+
 							html body div.content div div.tile a span.caption {
 								display: none;
 								position: absolute;
 							}
-							
+
 							html body div.content div div.tile a:hover span.caption {
 								display: table-cell;
 								vertical-align: center;
@@ -158,9 +158,9 @@
 								font-size: 25px;
 								text-decoration: none;
 								top: 44%;
-								
+
 							}
-						
+
 							html body div.content div div.tile a div.overlay {
 								position: absolute;
 								top: 0;
@@ -170,15 +170,15 @@
 								display: none;
 								background: url(images/misc/bg_transparent.png);
 							}
-							
+
 							html body div.content div div.tile a:hover div.overlay {
 								display: block;
 							}
-						
+
 			html body div.footer {
 				margin-bottom: 20px;
 			}
-			
+
 				html body div.footer div {
 					color: #999;
 				}
