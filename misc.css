@@ -5,159 +5,159 @@
 			font-weight: 700;
 			padding: 10px 0 10px 0;
 		}
-		
+
 		h3 {
 			font-size: 20px;
 			font-weight: 700;
 			padding: 10px 0 10px 0;
 		}
-		
+
 		h4 {
 			font-size: 16px;
 			font-weight: 700;
 			padding: 10px 0 10px 0;
 		}
-		
+
 		p {
 			line-height: 150%;
 			padding: 0 0 10px 0;
 		}
-		
+
 			p a:link,
 			p a:visited {
 				color: #BA1820;
 				text-decoration: underline;
 			}
-			
+
 			p a:hover,
 			p a:active,
 			p a:focus {
 				color: #BA1820;
 				text-decoration: underline;
 			}
-		
+
 		ul {
 			line-height: 150%;
 			padding: 0 0 10px 0;
 		}
-			
+
 			ul li {
-				
+
 			}
-			
+
 				ul li a:link,
 				ul li a:visited {
 					color: #BA1820;
 					text-decoration: underline;
 				}
-				
+
 				ul li a:hover,
 				ul li a:active,
 				ul li a:focus {
 					color: #BA1820;
 					text-decoration: underline;
 				}
-		
+
 		.center {
 			text-align: center;
 		}
-			
+
 	/*	images */
 		.img-responsive {
 			display: block;
 			height: auto;
 			max-width: 100%;
 		}
-	
+
 		.img-inline {
 			margin-bottom: 20px;
 		}
-	
+
 		.img-border {
 			border: 1px solid #ccc;
 		}
-		
+
 		.gallery {
 			width: 20%;
 			display: inline;
 			float: left;
 			margin-right: 5%;
 		}
-		
+
 		.gallery-horizontal {
 			width: 20%;
 			display: inline;
 			float: left;
 			margin-right: 5%;
 		}
-		
+
 		.gallery-vertical {
 			width: 20%;
 			display: inline;
 			float: left;
 			margin-right: 5%;
 		}
-		
+
 	/*	layout */
 		.margin-bottom {
 			margin-bottom: 20px;
 		}
-		
+
 		.padding-bottom {
 			padding-bottom: 20px;
 		}
-		
+
 	/*	elements */
 		hr {
 			-moz-box-sizing: content-box;
 			box-sizing: content-box;
 			border-top: 1px solid #eeeeee;
 		}
-	
+
 		strong {
 			font-weight: 700;
 		}
-		
+
 		blockquote {
 			line-height: 150%;
 			padding: 0 0 10px 0;
 			font-style: italic;
 		}
-	
-	/*	tiles */	
+
+	/*	tiles */
 		.tile-colored {
 			background-color: #eee;
 		}
-	
+
 	/*	courses*/
 		div.courses {
 			border: 1px solid #ccc;
 			padding: 15px;
 			min-height: 210px;
 		}
-		
+
 			div.courses div.courses-date {
 				background-color: #eee;
 				padding: 15px;
 				min-height: 200px;
 			}
-			
+
 		div.courses-special {
-			
+
 		}
-		
+
 			div.courses-special h1 {
 				font-weight: 900;
 				font-size: 25px;
 				padding-bottom: 20px;
 			}
-			
+
 			div.courses-special p {
 				line-height: 150%;
 				font-size: 18px;
 				padding: 0 0 10px 0;
 			}
-		
+
 	/*	dates */
 		div.dates {
 			border: 1px solid #ccc;
@@ -165,28 +165,28 @@
 			margin-bottom: 20px;
 			overflow: hidden;
 		}
-		
+
 			div.dates div.dates-2-col {
 				overflow: hidden;
 				margin-bottom: 10px;
 			}
-			
+
 				div.dates div.dates-2-col div.dates-left {
 					float: left;
 					width: 30%;
 				}
-				
+
 				div.dates div.dates-2-col div.dates-right {
 					float: right;
 					width: 70%;
 				}
-			
+
 			div.dates div.dates-colored {
 				background-color: #eee;
 				padding: 8px;
 				margin-bottom: 15px;
 			}
-			
+
 	/*	dates-special */
 		div.dates-special {
 			background-color: #BA1820;
@@ -196,28 +196,28 @@
 			line-height: 150%;
 			color: #fff;
 		}
-		
+
 			div.dates-special div.dates-2-col {
 				overflow: hidden;
 				margin-bottom: 10px;
 			}
-			
+
 				div.dates-special div.dates-2-col div.dates-left {
 					float: left;
 					width: 30%;
 				}
-				
+
 				div.dates-special div.dates-2-col div.dates-right {
 					float: right;
 					width: 70%;
 				}
-			
+
 			div.dates-special div.dates-colored {
 				background-color: #eee;
 				padding: 8px;
 				margin-bottom: 15px;
 			}
-			
+
 	/*	products */
 		div.products {
 			border: 1px solid #ccc;
